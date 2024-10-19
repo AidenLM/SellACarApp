@@ -19,7 +19,7 @@ SellACar Kıbrıs is a mobile application developed to streamline the process of
 Here are some screenshots of the app:
 
 1. **Splash Screen**  
-   ![Splash Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Splash_Screen.png)
+   <img src="https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Splash_Screen.png" width="300">)
 
 2. **Intro Screen**  
    ![Intro Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Intro_Screen.png)
