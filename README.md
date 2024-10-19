@@ -19,25 +19,25 @@ SellACar Kıbrıs is a mobile application developed to streamline the process of
 Here are some screenshots of the app:
 
 1. **Splash Screen**  
-   <img src="https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Splash_Screen.png" width="300">)
+   <img src="https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Splash_Screen.png" width="300">
 
 2. **Intro Screen**  
-   ![Intro Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Intro_Screen.png)
-   
-3. **Sign Up Screen**  
-   ![Sign Up Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/SignUp_Screen.png)
+   <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Intro_Screen.png" width = "300">
 
-4. **Login Screen**  
-   ![Login Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Login_Screen.png)
+3. **Sign Up Screen** 
+   <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/SignUp_Screen.png" width = "300">
 
-5. **NavigationView_Screen**  
-   ![Navigation View_Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/NavigationView_Screen.png)
+4. **Login Screen**
+   <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Login_Screen.png" width = "300">
 
-6. **Add Listing Screen**  
-   ![Add Listing Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Add_Listing_Screen.png)
+5. **NavigationView_Screen**
+   <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/NavigationView_Screen.png" width = "300">
 
-6. **Sliders**  
-   ![Sliders](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Sliders.png)
+6. **Add Listing Screen**
+   <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Add_Listing_Screen.png" width = "300">
+
+ **Sliders**
+7. <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Sliders.png" width = "300">
    
 
 ## Technologies Used
