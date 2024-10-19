@@ -1,6 +1,6 @@
 # SellACar Kıbrıs
 
-SellACar Kıbrıs is a mobile application developed to streamline the process of selling and buying second-hand cars in Northern Cyprus. The app provides an easy-to-use platform for users to post their car listings or browse available cars. This README provides an overview of the app, its main features, and instructions on how to set it up.
+SellACar Kıbrıs is a mobile application developed to streamline the process of selling and buying second-hand cars in Northern Cyprus. The app provides an easy-to-use platform for users to post their car listings or browse available cars.
 
 ## Features
 
