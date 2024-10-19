@@ -23,20 +23,26 @@ Here are some screenshots of the app:
 
 2. **Intro Screen**  
    ![Intro Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Intro_Screen.png)
+   
+3. **Sign Up Screen**  
+   ![Sign Up Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/SignUp_Screen.png)
 
-3. **Login Screen**  
+4. **Login Screen**  
    ![Login Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Login_Screen.png)
 
-4. **Registration Screen**  
-   ![Registration Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Registration_Screen.png)
+5. **NavigationView_Screen**  
+   ![Navigation View_Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/NavigationView_Screen.png)
 
-5. **Add Listing Screen**  
+6. **Add Listing Screen**  
    ![Add Listing Screen](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Add_Listing_Screen.png)
+
+6. **Sliders**  
+   ![Sliders](https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Sliders.png)
+   
 
 ## Technologies Used
 
 - **Kotlin:** Main programming language used for Android app development.
-- **MVVM (Model-View-ViewModel):** Architecture pattern used for organizing the project structure.
 - **Coroutines:** For asynchronous programming and handling tasks like network requests.
 - **Firebase Authentication:** Used for user registration and login.
 - **Firebase Firestore:** A cloud-based NoSQL database that stores the car listings and user data.
