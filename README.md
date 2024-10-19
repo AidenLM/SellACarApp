@@ -20,24 +20,31 @@ Here are some screenshots of the app:
 
 1. **Splash Screen**  
    <img src="https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Splash_Screen.png" width="300">
+   &nbsp;
 
 2. **Intro Screen**  
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Intro_Screen.png" width = "300">
+   &nbsp;
 
 3. **Sign Up Screen** 
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/SignUp_Screen.png" width = "300">
+   &nbsp;
 
 4. **Login Screen**
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Login_Screen.png" width = "300">
+   &nbsp;
 
 5. **NavigationView_Screen**
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/NavigationView_Screen.png" width = "300">
+   &nbsp;
 
 6. **Add Listing Screen**
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Add_Listing_Screen.png" width = "300">
+   &nbsp;
 
  **Sliders**
 7. <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Sliders.png" width = "300">
+&nbsp;
    
 
 ## Technologies Used
