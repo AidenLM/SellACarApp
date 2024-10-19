@@ -36,10 +36,17 @@ Here are some screenshots of the app:
 ## Technologies Used
 
 - **Kotlin:** Main programming language used for Android app development.
+- **MVVM (Model-View-ViewModel):** Architecture pattern used for organizing the project structure.
+- **Coroutines:** For asynchronous programming and handling tasks like network requests.
 - **Firebase Authentication:** Used for user registration and login.
-- **Firebase Storage:** Handles the image uploads for car listings.
 - **Firebase Firestore:** A cloud-based NoSQL database that stores the car listings and user data.
-- **XML:** Used for defining the app's layout and UI.
+- **Google Cloud Storage:** For storing images related to car listings.
+- **Picasso:** Used for loading and displaying images within the app.
+- **Glide:** Another image loading library used for smooth loading of images.
+- **ViewBinding:** Used to bind UI components to their respective layout files.
+- **RecyclerView:** Used for displaying lists of car listings efficiently.
+- **NavigationView:** For handling navigation within the app.
+- **Figma:** Design tool used for creating and iterating the app’s user interface.
 
 ## Installation
 
