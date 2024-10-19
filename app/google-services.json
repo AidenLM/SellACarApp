@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928618431813",
+    "project_id": "sellacartest2",
+    "storage_bucket": "sellacartest2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928618431813:android:8e83a425dc2def24dc2a2c",
+        "android_client_info": {
+          "package_name": "com.example.sellacartestapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW_4iskfMIQTkOgKfEdsWjaPoKrvD8uYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

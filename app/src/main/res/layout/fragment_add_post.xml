@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostFragment"
+    android:paddingBottom="40dp"
+    android:background="@drawable/background1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imaageView4"
+            android:layout_width="232dp"
+            android:layout_height="142dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/add_selection"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/add_post_brand_spinner"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imaageView4" />
+
+        <TextView
+            android:id="@+id/brandTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="7dp"
+            android:text="Marka Seçiniz"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/add_post_brand_spinner"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/modelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp"
+            android:text="Model Seçiniz"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/add_post_model_spinner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_brand_spinner" />
+
+        <Spinner
+            android:id="@+id/add_post_model_spinner"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_brand_spinner" />
+
+        <TextView
+            android:id="@+id/yearTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="7dp"
+            android:text="Model Yılı Seçiniz"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/add_post_year_spinner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_model_spinner" />
+
+        <Spinner
+            android:id="@+id/add_post_year_spinner"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_model_spinner" />
+
+        <EditText
+            android:id="@+id/kilometerEditText"
+            android:layout_width="309dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="3dp"
+            android:hint="Kilometre veya Mil giriniz"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            app:flow_horizontalBias="0.0"
+            app:layout_constraintEnd_toStartOf="@+id/kilometerUnitSpinner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_year_spinner"
+            app:layout_constraintWidth_percent="0.75" />
+
+        <Spinner
+            android:id="@+id/kilometerUnitSpinner"
+            android:layout_width="91dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toEndOf="@+id/kilometerEditText"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_year_spinner" />
+
+        <Spinner
+            android:id="@+id/priceUnitSpinner"
+            android:layout_width="114dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/priceEditText"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_city_spinner" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Kat Edilen Mesafe"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_year_spinner" />
+
+        <Spinner
+            android:id="@+id/add_post_city_spinner"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="130dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_year_spinner" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Şehir"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/add_post_city_spinner"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/priceEditText"
+            android:layout_width="281dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Fiyat Bilgisi Giriniz"
+            android:inputType="numberDecimal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_city_spinner" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="4dp"
+            android:text="Fiyat"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/priceEditText"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/commentEditText"
+            android:layout_width="402dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="İlan Başlığı"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/priceEditText" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:text="İlan Açıklaması"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/commentEditText" />
+
+
+        <EditText
+            android:id="@+id/add_post_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/inputdesription"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:paddingStart="5dp"
+            android:paddingTop="30dp"
+            android:src="@drawable/inputdesription"
+            android:textAlignment="textStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn1"
+            android:text="İlanı Yükle"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_post_description" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

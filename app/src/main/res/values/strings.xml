@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">SellACar</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="hiden">****</string>
+
+    <string-array name="brands">
+        <item>Markalar</item>
+        <item>Mercedes-Benz</item>
+        <item>BMW</item>
+        <item>Mazda</item>
+        <item>Audi</item>
+        <item>Toyota</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Nissan</item>
+        <item>Volkswagen</item>
+        <item>Chevrolet</item>
+        <item>Hyundai</item>
+        <item>Jaguar</item>
+        <item>Land Rover</item>
+        <item>Kia</item>
+        <item>Jeep</item>
+        <item>Subaru</item>
+        <item>Volvo</item>
+        <item>Porsche</item>
+        <item>Ferrari</item>
+        <item>Lamborghini</item>
+        <item>Peugeot</item>
+        <item>Renault</item>
+    </string-array>
+
+    <string-array name="mercedes_models">
+        <item>A-Class</item>
+        <item>C-Class</item>
+        <item>E-Class</item>
+    </string-array>
+
+    <string-array name="bmw_models">
+        <item>3 Series</item>
+        <item>5 Series</item>
+        <item>X5</item>
+    </string-array>
+
+    <string-array name="mazda_models">
+        <item>Mazda3</item>
+        <item>Mazda6</item>
+        <item>CX-5</item>
+    </string-array>
+
+
+    <string-array name="audi_models">
+        <item>A3</item>
+        <item>A4</item>
+        <item>Q5</item>
+        <item>Q7</item>
+        <item>A6</item>
+    </string-array>
+
+    <!-- Toyota Models -->
+    <string-array name="toyota_models">
+        <item>Corolla</item>
+        <item>Camry</item>
+        <item>RAV4</item>
+        <item>Yaris</item>
+        <item>Land Cruiser</item>
+    </string-array>
+
+    <!-- Ford Models -->
+    <string-array name="ford_models">
+        <item>Fiesta</item>
+        <item>Focus</item>
+        <item>Mustang</item>
+        <item>Explorer</item>
+        <item>Edge</item>
+        <item>Mondeo</item>
+    </string-array>
+
+    <!-- Honda Models -->
+    <string-array name="honda_models">
+        <item>Civic</item>
+        <item>Accord</item>
+        <item>CR-V</item>
+        <item>HR-V</item>
+        <item>Pilot</item>
+    </string-array>
+
+    <!-- Nissan Models -->
+    <string-array name="nissan_models">
+        <item>Altima</item>
+        <item>Maxima</item>
+        <item>Rogue</item>
+        <item>Murano</item>
+        <item>GT-R</item>
+    </string-array>
+
+    <!-- Volkswagen Models -->
+    <string-array name="volkswagen_models">
+        <item>Golf</item>
+        <item>Polo</item>
+        <item>Passat</item>
+        <item>Tiguan</item>
+        <item>Jetta</item>
+    </string-array>
+
+    <!-- Chevrolet Models -->
+    <string-array name="chevrolet_models">
+        <item>Camaro</item>
+        <item>Corvette</item>
+        <item>Malibu</item>
+        <item>Tahoe</item>
+        <item>Silverado</item>
+    </string-array>
+
+    <!-- Hyundai Models -->
+    <string-array name="hyundai_models">
+        <item>Elantra</item>
+        <item>Sonata</item>
+        <item>Tucson</item>
+        <item>Santa Fe</item>
+        <item>Kona</item>
+    </string-array>
+
+    <!-- Jaguar Models -->
+    <string-array name="jaguar_models">
+        <item>XE</item>
+        <item>XF</item>
+        <item>F-Pace</item>
+        <item>E-Pace</item>
+        <item>F-Type</item>
+    </string-array>
+
+    <!-- Land Rover Models -->
+    <string-array name="land_rover_models">
+        <item>Discovery</item>
+        <item>Defender</item>
+        <item>Range Rover</item>
+        <item>Range Rover Sport</item>
+        <item>Range Rover Evoque</item>
+    </string-array>
+
+    <!-- Kia Models -->
+    <string-array name="kia_models">
+        <item>Sportage</item>
+        <item>Sorento</item>
+        <item>Optima</item>
+        <item>Rio</item>
+        <item>Stinger</item>
+    </string-array>
+
+    <!-- Jeep Models -->
+    <string-array name="jeep_models">
+        <item>Wrangler</item>
+        <item>Grand Cherokee</item>
+        <item>Cherokee</item>
+        <item>Renegade</item>
+        <item>Compass</item>
+    </string-array>
+
+    <!-- Subaru Models -->
+    <string-array name="subaru_models">
+        <item>Impreza</item>
+        <item>Forester</item>
+        <item>Outback</item>
+        <item>Legacy</item>
+        <item>WRX</item>
+    </string-array>
+
+    <!-- Volvo Models -->
+    <string-array name="volvo_models">
+        <item>XC40</item>
+        <item>XC60</item>
+        <item>XC90</item>
+        <item>S60</item>
+        <item>S90</item>
+    </string-array>
+
+    <!-- Porsche Models -->
+    <string-array name="porsche_models">
+        <item>911</item>
+        <item>Cayenne</item>
+        <item>Macan</item>
+        <item>Panamera</item>
+        <item>Taycan</item>
+    </string-array>
+
+    <!-- Ferrari Models -->
+    <string-array name="ferrari_models">
+        <item>488</item>
+        <item>Portofino</item>
+        <item>F8 Tributo</item>
+        <item>Roma</item>
+        <item>SF90 Stradale</item>
+    </string-array>
+
+    <!-- Lamborghini Models -->
+    <string-array name="lamborghini_models">
+        <item>Huracan</item>
+        <item>Aventador</item>
+        <item>Urus</item>
+    </string-array>
+
+    <!-- Peugeot Models -->
+    <string-array name="peugeot_models">
+        <item>208</item>
+        <item>3008</item>
+        <item>5008</item>
+        <item>508</item>
+    </string-array>
+
+    <!-- Renault Models -->
+    <string-array name="renault_models">
+        <item>Clio</item>
+        <item>Megane</item>
+        <item>Kadjar</item>
+        <item>Captur</item>
+        <item>Talisman</item>
+    </string-array>
+
+    <string-array name="Locations">
+        <item>Lefkoşa</item>
+        <item>Lefke</item>
+        <item>Gazimağusa</item>
+        <item>Güzelyurt</item>
+        <item>İskele</item>
+        <item>Girne</item>
+    </string-array>
+
+    <string-array name="kilometer_units_array">
+        <item>KM</item>
+        <item>Mil</item>
+    </string-array>
+
+    <string-array name="price_units_array">
+        <item>STG</item>
+        <item>TL</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="models">
+        <item>Modeller</item>
+    </string-array>
+</resources>

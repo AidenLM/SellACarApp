@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarFeaturesFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:text="Fiyat "
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/price_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:gravity="end"
+            android:text="test price"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/special_red"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/priceTextView"
+            app:layout_constraintEnd_toEndOf="@id/priceTextView"
+            app:layout_constraintTop_toTopOf="@id/priceTextView"
+            app:layout_constraintVertical_bias="0.5" />
+
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:src="@drawable/line1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/priceTextView" />
+
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:text="İlan Tarihi"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+
+        <TextView
+            android:id="@+id/date_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test date"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/dateTextView"
+            app:layout_constraintBottom_toBottomOf="@id/dateTextView"
+            app:layout_constraintEnd_toEndOf="@id/dateTextView"
+            android:textColor="@color/special_red"
+            app:layout_constraintVertical_bias="0.5"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:src="@drawable/line1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateTextView" />
+
+
+        <TextView
+            android:id="@+id/brandTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Marka"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line2" />
+
+
+        <TextView
+            android:id="@+id/brand_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test brand"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/brandTextView"
+            app:layout_constraintBottom_toBottomOf="@id/brandTextView"
+            app:layout_constraintEnd_toEndOf="@id/brandTextView"
+            android:textColor="@color/special_red"
+            app:layout_constraintVertical_bias="0.5"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_marginEnd="8dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:src="@drawable/line1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/brandTextView" />
+
+
+        <TextView
+            android:id="@+id/modelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Model"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line3" />
+
+
+        <TextView
+            android:id="@+id/model_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test model"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/modelTextView"
+            app:layout_constraintBottom_toBottomOf="@id/modelTextView"
+            app:layout_constraintEnd_toEndOf="@id/modelTextView"
+            android:textColor="@color/special_red"
+            app:layout_constraintVertical_bias="0.5"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:src="@drawable/line1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/modelTextView" />
+
+
+        <TextView
+            android:id="@+id/yearTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Yıl"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line4" />
+
+        <TextView
+            android:id="@+id/year_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test year"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/yearTextView"
+            app:layout_constraintBottom_toBottomOf="@id/yearTextView"
+            app:layout_constraintEnd_toEndOf="@id/yearTextView"
+            android:textColor="@color/special_red"
+            app:layout_constraintVertical_bias="0.5"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/line5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:src="@drawable/line1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yearTextView" />
+
+
+        <TextView
+            android:id="@+id/kilometerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="KM"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line5" />
+
+        <TextView
+            android:id="@+id/kilometer_editable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test KM"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/kilometerTextView"
+            app:layout_constraintBottom_toBottomOf="@id/kilometerTextView"
+            app:layout_constraintEnd_toEndOf="@id/kilometerTextView"
+            android:textColor="@color/special_red"
+            app:layout_constraintVertical_bias="0.5"
+            android:textAlignment="viewEnd"
+            android:gravity="end"
+            android:layout_marginEnd="8dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

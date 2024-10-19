@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SellACarTestApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.SellACarTestApp" parent="Base.Theme.SellACarTestApp" />
+</resources>
