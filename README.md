@@ -38,17 +38,22 @@ Here are some screenshots of the app:
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Login_Screen.png" width = "300">
    &nbsp;
 
+5. **Main Screen**
+   &nbsp;
+   <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/MainPage.png" width = "300">
+   &nbsp;
+   
 5. **NavigationView_Screen**
    &nbsp;
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/NavigationView_Screen.png" width = "300">
    &nbsp;
 
-6. **Add Listing Screen**
+7. **Add Listing Screen**
     &nbsp;
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Add_Listing_Screen.png" width = "300">
    &nbsp;
 
-7. **Sliders**
+8. **Sliders**
    &nbsp;
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/Sliders.png" width = "300">
    &nbsp;
