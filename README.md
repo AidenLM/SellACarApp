@@ -43,7 +43,7 @@ Here are some screenshots of the app:
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/MainPage.png" width = "300">
    &nbsp;
    
-5. **NavigationView_Screen**
+6. **NavigationView_Screen**
    &nbsp;
    <img src = "https://github.com/AidenLM/SellACarApp/raw/main/screenshots/NavigationView_Screen.png" width = "300">
    &nbsp;
